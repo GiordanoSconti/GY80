@@ -1,0 +1,29 @@
+﻿VCC_IN:
+Vs 3.3V or 5V
+
+VCC_3.3V:
+Vo 3.3V
+
+GND:
+Ground 0
+
+SCL:
+I2C Clock (A5 or 21)
+
+SDA:
+I2C Data (A4 or 20)
+
+M_DRDY from HMC5883L magnetometer:
+Data Ready, Interrupt Pin. Internally pulled high. Optional connection. Low for 250 µsec when data is placed in the data output registers.
+
+A_INT1 from ADXL345 accelerometer: 
+Interrupt 1 Output.
+
+T_INT1 from L3G4200 gyroscope: 
+Programmable interrupt.
+
+P_XCLR from BMP085 barometer: 
+Used to reset the sensor. Can be left floated.
+
+P_EOC from BMP085 barometer: 
+End of Conversion (optional).
